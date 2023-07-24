@@ -1,2 +1,188 @@
-h1 {
-  font-size: 55px; }
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: gc-tipografia; }
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin: 16px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d0ac7a;
+  align-items: center;
+  padding-right: 16px; }
+
+.barra-navegacion-header {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0px; }
+
+.link-header {
+  color: black;
+  font-size: 16px;
+  margin: 16px; }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d0ac7a;
+  padding: 8px;
+  justify-content: space-around; }
+
+.link-footer {
+  color: black;
+  font-size: 10px;
+  list-style-type: none; }
+
+.h {
+  text-align: center; }
+
+.slogan-index {
+  margin: 16px; }
+
+.core-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 16px;
+  justify-content: space-evenly;
+  text-align: unset; }
+
+.texto-index {
+  font-family: intro-index;
+  font-size: 24px;
+  width: 360px; }
+
+.remeras-main {
+  height: 360px;
+  width: 360px;
+  justify-content: center; }
+
+.catalogo__h1 {
+  margin-left: 2.5vw; }
+
+.accordion-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around; }
+
+.card-img-top {
+  display: block;
+  max-width: 225px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  /* Quise dejar las imagenes centradas dentro de la tarjeta y no pude, intente con flex y nada, como lo solucionarias? */ }
+
+.catalogo__texto-niños {
+  font-size: xx-large; }
+
+.nm__grilla {
+  max-width: 95vw;
+  margin: auto;
+  margin-top: 1vh;
+  display: grid;
+  max-height: 800px;
+  grid-template-areas: "slogan slogan logo" "texto texto texto" "texto texto texto" "texto texto texto" "texto texto texto";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+
+.nm__slogan {
+  background-color: aqua;
+  grid-area: slogan;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.nm__img-logo {
+  background-color: brown;
+  grid-area: logo;
+  max-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.nm__texto-marca {
+  background-color: chartreuse;
+  grid-area: texto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.td {
+  border: 2px solid #795243;
+  text-align: center;
+  padding: 5px; }
+
+.tabla-talles-torso {
+  /* font-family: intro-index; (NO LO PUEDO CORREGIR/PISAR, AYUDA) */
+  border: 6px solid #795243;
+  padding: 2px; }
+
+.talles-mujeres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.foto-talle-mujer {
+  width: 25%;
+  height: 25%;
+  justify-content: center; }
+
+.talles-hombres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.foto-talle-hombre {
+  width: 25%;
+  height: 25%;
+  justify-content: center; }
+
+.main-talles {
+  margin: 8px; }
+
+.h3-talles {
+  margin: 8px; }
+
+.formulario {
+  margin: 16px; }
+
+.casilla-formulario {
+  width: 360px;
+  margin: 4px; }
+
+.casilla-formulario-mensaje {
+  width: 360px;
+  height: 160px;
+  margin: 4px;
+  /* COMO PUEDO HACER PARA QUE EL TEXTO PLACEHOLDER QUEDE ALINEADO AL INICIO Y NO CENTRADO? */ }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  background-color: #795243; }
+
+.oferta {
+  border: 2px solid #795243;
+  width: 95vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 18px; }

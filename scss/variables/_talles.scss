@@ -1,0 +1,44 @@
+
+.td{
+    border: 2px solid #795243;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabla-talles-torso{
+    /* font-family: intro-index; (NO LO PUEDO CORREGIR/PISAR, AYUDA) */
+    border: 6px solid #795243;
+    padding: 2px;
+}
+
+.talles-mujeres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto-talle-mujer{
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+}
+
+.talles-hombres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto-talle-hombre{
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+}
+
+.main-talles{
+    margin: 8px;
+}
+
+.h3-talles{
+    margin: 8px;
+}

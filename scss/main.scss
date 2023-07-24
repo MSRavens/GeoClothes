@@ -1,3 +1,33 @@
-h1{
-    font-size: 55px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: gc-tipografia;
+}
+
+@import "./variables/header";
+@import "./variables/footer";
+@import "./variables/index";
+@import "./variables/catalogo";
+@import "./variables/nuestra-marca";
+@import "./variables/talles";
+@import "./variables/contacto"; 
+@import "./variables/media-queries"
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #795243;
+}
+
+.oferta{
+    border: 2px solid #795243;
+    width: 95vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 18px;
+
 }

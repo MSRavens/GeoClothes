@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d0ac7a;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+.link-footer{
+    color: black;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+.h{
+    text-align: center;
+}
+
+//cambiar nombre de clase por una mejor en .h
