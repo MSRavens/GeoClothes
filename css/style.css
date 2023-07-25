@@ -104,15 +104,27 @@
   align-items: center;
   align-content: center; }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  40% {
+    transform: rotate(0deg); }
+  55% {
+    transform: rotate(5deg); }
+  85% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+
 .nm__img-logo {
-  background-color: brown;
   grid-area: logo;
   max-height: 250px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  animation: wiggle 2.5s infinite; }
 
 .nm__texto-marca {
   background-color: chartreuse;
