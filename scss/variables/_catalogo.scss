@@ -1,9 +1,8 @@
-
-.catalogo__h1{
+.catalogo__h1 {
     margin-left: 2.5vw;
 }
 
-.accordion-body{
+.accordion-body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -11,15 +10,15 @@
     align-content: space-around;
 }
 
-.card-img-top{ 
+.card-img-top {
     display: block;
-    max-width:225px;
-    max-height:300px;
+    max-width: 225px;
+    max-height: 300px;
     width: auto;
     height: auto;
     /* Quise dejar las imagenes centradas dentro de la tarjeta y no pude, intente con flex y nada, como lo solucionarias? */
 }
 
-.catalogo__texto-niños{
+.catalogo__texto-niños {
     font-size: xx-large;
 }

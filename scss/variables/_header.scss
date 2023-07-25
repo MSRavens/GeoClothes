@@ -1,10 +1,10 @@
-.logo{
+.logo {
     width: 64px;
     height: 64px;
     margin: 16px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #d0ac7a;
@@ -12,7 +12,7 @@
     padding-right: 16px;
 }
 
-.barra-navegacion-header{
+.barra-navegacion-header {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
@@ -20,8 +20,8 @@
     margin-bottom: 0px;
 }
 
-.link-header{
+.link-header {
     color: black;
-    font-size: 16px;   
+    font-size: 16px;
     margin: 16px;
 }
