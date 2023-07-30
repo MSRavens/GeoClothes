@@ -4,10 +4,15 @@
     margin: 16px;
 }
 
+.a:hover {
+    background-color: $ladrillo;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #d0ac7a;
+    background-color: $arena;
     align-items: center;
     padding-right: 16px;
 }
@@ -24,4 +29,5 @@
     color: black;
     font-size: 16px;
     margin: 16px;
+    font-family: fuente-gc;
 }

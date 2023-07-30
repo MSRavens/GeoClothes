@@ -2,12 +2,21 @@
     margin-left: 2.5vw;
 }
 
+.mp-catalogo {
+    min-height: 600px;
+}
+
+.accordion-button {
+    background-color: $cemento;
+}
+
 .accordion-body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     align-content: space-around;
+    background-color: $agua;
 }
 
 .card-img-top {

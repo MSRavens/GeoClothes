@@ -1,13 +1,48 @@
 @charset "UTF-8";
+@font-face {
+  font-family: fuente-gc;
+  src: url(../../assets/fonts/ethnocentric.rg-regular.otf); }
+
+@font-face {
+  font-family: fuente-base;
+  src: url(../../assets/fonts/JosefinSans-SemiBold.ttf); }
+
 * {
   padding: 0;
   margin: 0;
-  font-family: gc-tipografia; }
+  font-family: fuente-base; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  background-color: #e17b45; }
+
+.oferta {
+  border: 2px solid #e17b45;
+  width: 95vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: fuente-gc; }
+
+h1 {
+  font-family: fuente-gc;
+  margin: 16px; }
+
+.body-page {
+  min-height: 800px;
+  background-color: #e4e8f4; }
 
 .logo {
   width: 64px;
   height: 64px;
   margin: 16px; }
+
+.a:hover {
+  background-color: #e17b45; }
 
 .header {
   display: flex;
@@ -26,7 +61,8 @@
 .link-header {
   color: black;
   font-size: 16px;
-  margin: 16px; }
+  margin: 16px;
+  font-family: fuente-gc; }
 
 .footer {
   display: flex;
@@ -41,7 +77,8 @@
   list-style-type: none; }
 
 .h {
-  text-align: center; }
+  text-align: center;
+  font-family: fuente-gc; }
 
 .slogan-index {
   margin: 16px; }
@@ -55,7 +92,7 @@
   text-align: unset; }
 
 .texto-index {
-  font-family: intro-index;
+  font-family: fuente-base;
   font-size: 24px;
   width: 360px; }
 
@@ -67,12 +104,19 @@
 .catalogo__h1 {
   margin-left: 2.5vw; }
 
+.mp-catalogo {
+  min-height: 600px; }
+
+.accordion-button {
+  background-color: #959d9e; }
+
 .accordion-body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  align-content: space-around; }
+  align-content: space-around;
+  background-color: #e4e8f4; }
 
 .card-img-top {
   display: block;
@@ -91,16 +135,14 @@
   margin-top: 1vh;
   display: grid;
   max-height: 800px;
-  grid-template-areas: "slogan slogan logo" "texto texto texto" "texto texto texto" "texto texto texto" "texto texto texto";
+  grid-template-areas: "slogan slogan logo" "texto texto texto" "texto texto texto";
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+  grid-template-rows: 1fr 1fr 1fr; }
 
 .nm__slogan {
-  background-color: aqua;
   grid-area: slogan;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   align-content: center; }
 
@@ -124,17 +166,18 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  animation: wiggle 2.5s infinite; }
+  animation: wiggle 2s infinite; }
 
 .nm__texto-marca {
-  background-color: chartreuse;
   grid-area: texto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 24px;
+  padding: 20px; }
 
 .td {
   border: 2px solid #795243;
@@ -170,20 +213,31 @@
   margin: 8px; }
 
 .h3-talles {
-  margin: 8px; }
+  margin: 8px;
+  font-family: fuente-gc; }
 
 .formulario {
-  margin: 16px; }
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
 
 .casilla-formulario {
   width: 360px;
-  margin: 4px; }
+  margin: 8px; }
 
 .casilla-formulario-mensaje {
   width: 360px;
   height: 160px;
-  margin: 4px;
+  margin: 8px;
   /* COMO PUEDO HACER PARA QUE EL TEXTO PLACEHOLDER QUEDE ALINEADO AL INICIO Y NO CENTRADO? */ }
+
+.boton-enviar {
+  width: 240px;
+  background-color: aqua; }
+
+.h5-formulario {
+  margin: 8px; }
 
 @media (max-width: 421px) {
   * {
@@ -222,26 +276,3 @@
     font-size: 12px; }
   .casilla-formulario-mensaje {
     font-size: 12px; } }
-
-@font-face {
-  font-family: gc-tipografia;
-  src: url(./assets/fonts/ethnocentric.rg-regular.otf); }
-
-@font-face {
-  font-family: intro-index;
-  src: url(./assets/fonts/JosefinSans-SemiBold.ttf); }
-
-a {
-  color: black;
-  text-decoration: none; }
-
-a:hover {
-  background-color: #795243; }
-
-.oferta {
-  border: 2px solid #795243;
-  width: 95vw;
-  text-align: center;
-  margin: auto;
-  margin-top: 5px;
-  font-size: 18px; }

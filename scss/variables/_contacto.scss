@@ -1,15 +1,27 @@
 .formulario {
-    margin: 16px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .casilla-formulario {
     width: 360px;
-    margin: 4px;
+    margin: 8px;
 }
 
 .casilla-formulario-mensaje {
     width: 360px;
     height: 160px;
-    margin: 4px;
+    margin: 8px;
     /* COMO PUEDO HACER PARA QUE EL TEXTO PLACEHOLDER QUEDE ALINEADO AL INICIO Y NO CENTRADO? */
+}
+
+.boton-enviar {
+    width: 240px;
+    background-color: aqua;
+}
+
+.h5-formulario {
+    margin: 8px;
 }
