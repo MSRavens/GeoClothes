@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
-  font-family: fuente-gc;
-  src: url(../../assets/fonts/ethnocentric.rg-regular.otf); }
-
-@font-face {
   font-family: fuente-base;
   src: url(../../assets/fonts/JosefinSans-SemiBold.ttf); }
+
+@font-face {
+  font-family: fuente-gc;
+  src: url(../../assets/fonts/ethnocentric.rg-regular.otf); }
 
 * {
   padding: 0;
@@ -40,9 +40,6 @@ h1 {
   width: 64px;
   height: 64px;
   margin: 16px; }
-
-.a:hover {
-  background-color: #e17b45; }
 
 .header {
   display: flex;
@@ -180,13 +177,13 @@ h1 {
   padding: 20px; }
 
 .td {
-  border: 2px solid #795243;
+  border: 2px solid #925632;
   text-align: center;
   padding: 5px; }
 
 .tabla-talles-torso {
   /* font-family: intro-index; (NO LO PUEDO CORREGIR/PISAR, AYUDA) */
-  border: 6px solid #795243;
+  border: 6px solid #925632;
   padding: 2px; }
 
 .talles-mujeres {

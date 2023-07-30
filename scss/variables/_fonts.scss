@@ -1,13 +1,10 @@
 @font-face {
-    font-family: fuente-gc;
-    src: url(../../assets/fonts/ethnocentric.rg-regular.otf);
-}
-
-@font-face {
     font-family: fuente-base;
     src: url(../../assets/fonts/JosefinSans-SemiBold.ttf);
 }
 
-// no me sale la fuente JosefinaSans, sera por la extension?
-// al poner 3 puntos consecutivos no me sale la ruta para la carpeta assets, como lo puedo solucionar?
+@font-face {
+    font-family: fuente-gc;
+    src: url(../../assets/fonts/ethnocentric.rg-regular.otf);
+}
 

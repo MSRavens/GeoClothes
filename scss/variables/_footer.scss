@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     flex-wrap: wrap;
-    background-color: #d0ac7a;
+    background-color: $arena;
     padding: 8px;
     justify-content: space-around;
 }
@@ -16,5 +16,3 @@
     text-align: center;
     font-family: fuente-gc;
 }
-
-//cambiar nombre de clase por una mejor en .h
